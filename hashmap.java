@@ -8,6 +8,7 @@ class hashmap{
 		hm.put(101,"Vijay"); 
 		hm.put(101, "value");
 		hm.put(102,"Rahul");   
+		System.out.println("BranchA "); 
 
 		System.out.println("After invoking put() method ");  
 		for(Map.Entry m:hm.entrySet()){    
